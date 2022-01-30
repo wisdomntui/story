@@ -3,10 +3,10 @@
 require './Story.php';
 
 // Email parameters
-$toEmail = 'wisdomntui@gmail.com';
-$ccEmail = 'osuobiem@gmail.com';
-$fromEmail = 'wisdomntui@gmail.com';
-$password = 'exynos22135546';
+$toEmail = 'jonathan@sourceitmarketing.com'; // First receipient
+$ccEmail = 'malik@sourceitmarketing.com'; // Second receipient
+$fromEmail = ''; // Your gmail address
+$password = ''; // Your gmail password
 
 // Create new instance of story class
 $story = new Story($toEmail, $ccEmail, $fromEmail, $password);

@@ -58,6 +58,8 @@ class Story
                 'password' => $this->password,
             ];
             $this->sendEmail($emailData);
+
+            echo "Process completed successfully!";
         } catch (\Throwable $th) {
             echo $th->getMessage();
         }
